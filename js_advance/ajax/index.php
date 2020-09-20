@@ -10,6 +10,10 @@
     <form action="" method="post" class="formArea js-formArea">
         <div id="ajaxArea" class="js-set-html">
             <p>ここだけ入れ替わります。</p>
+            <h1>
+                名前は<span class="js-set-name"></span>です。
+                年齢は<span class="js-set-age"></span>です。
+            </h1>
         </div>
         <p><?php echo date('Y/M/d H:i:s'); ?></p>
         名前
@@ -19,7 +23,8 @@
         <input type="submit" value="送信"　class="btn">
     </form>
 
-    <script>src="https://code.jquery.com/jquery-3.2.1.min.js"
+    <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
           integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
           crossorigin="anonymous"></script>
     <script src="app.js"></script>
